@@ -33,7 +33,6 @@ public class mataKuliah04 {
     }
 
     void kurangiJam(int jam) {
-        jmlJam -= jam;
         if (jmlJam >= jam) {
             jmlJam -= jam;
             System.out.println("Jumlah jam berhasil dikurangi. Total jam menjadi " + jmlJam);
