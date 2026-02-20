@@ -13,3 +13,10 @@ Jawaban Percobaan 2
    - Nama object yang dihasilkan : mhs1
 2. Menggunakan namaObjek.namaAtribut atau namaObjek.namaMethod(); contoh :  mhs1.tampilkanInformasi();
 3. Pemanggilan pertama menampilkan data awal berupa Kelas: SI 2J IPK: 3.55. Lalu dilakukan perubahan nilai atribut dalam objek mhs1 berubah menjadi Kelas: SI 2K IPK: 3.60. Lalu pemanggilan kedua menampilkan data yang sudah diperbarui
+
+Jawaban Percobaan 3
+1. public mahasiswa04(String nm, String nim,double ipk, String kls)
+2. Untuk membuat objek baru sekaligus langsung mengisi datanya menggunakan konstruktor berparameter, sehingga langsung mengisi nilai nama = "Annisa Nabila" nim = "2141720160" ipk = 3.25 kelas = "TI 2L"
+3. Jika konstruktor default dihapus maka program akan mengalami error saat compile karena tidak ditemukan konstruktor yang sesuai
+4. Method dalam class mahasiswa04 tidak harus diakses secara berurutan karena method dalam class tidak berjalan otomatis dan tidak memiliki urutan tetap. Method hanya dieksekusi saat dipanggil, sehingga urutan bergantung pada cara pemanggilannya di dalam program.
+5. Modifikasi
